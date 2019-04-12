@@ -15,6 +15,7 @@ namespace GradeBook.GradeBooks
         public List<Student> Students { get; set; }
         public GradeBookType Type;
 
+
         public BaseGradeBook(string name)
         {
             Name = name;
